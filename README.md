@@ -3,6 +3,11 @@
 ## Description
 Our pipeline leverages a multimodal constraint autoencoder (scHCAE) to integrate the multiomics data during the clustering process and a matrix factorization-based model (scMF) to predict target genes regulated by a TF.
 
+### Architectural of scHCAE
+![Architectural of scHCAE](./images/Architecture_scHCAE.png)
+### Architectural of scMF
+![Architectural of scMF](./images/Architecture_scMF.png)
+
 ## Usage
 ### Prerequisites
 - Python 3.8 or higher
